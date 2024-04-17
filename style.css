@@ -51,7 +51,7 @@ body{
     margin:10px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 660px) {
     .box {
         display:flex;
     }
@@ -59,8 +59,14 @@ body{
         display:flex;
         width: 640px;
         flex-direction: row;
+        align-items: center;
     }
-
+    .content{
+        display: flex;
+        height: 150px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 
