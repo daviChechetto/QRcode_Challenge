@@ -55,8 +55,6 @@ body{
     .box {
         display:flex;
     }
-    .container{
-    }
     .box{
         display:flex;
         width: 640px;
